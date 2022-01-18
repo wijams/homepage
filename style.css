@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	border-radius: 60px;
+	background-color: #B4C9C7;
+	padding: 50px;
+	border-bottom: 1px solid #5D6063;
+	text-align: center;
+	margin: 20px auto;
+	width: 700px;
+}
+
+p, li {
+	padding: 20px 0 10px 10px;
+	margin-bottom: 10px;
+}
+
+.menu {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #999999;
+}
+
+.buttons {
+	float: left;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: aqua;
+	text-decoration: underline;
+}
+
+a:active {
+	color: red;
+}
+
+a:visited:hover {
+	color: orange;
+}
+
+a:visited:active {
+	color: red;
+}
+
+.buttons a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.buttons a:hover {
+	background-color: #111;
+}
+
+.content {
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+.content-container {
+	display: flex;
+	justify-content: center;
+}
+
+.about {
+	background-color: #B4C9C7;
+	margin: 20px;
+	padding: 30px;
+	border-radius: 60px;
+}
+
+.projects {
+	background-color: #B4C9C7;
+	margin: 20px;
+	padding: 30px;
+	border-radius: 60px;
+}
+
+.experience {
+	background-color: #B4C9C7;
+	margin: 20px;
+	padding: 30px;
+	border-radius: 60px;
+}
+
+.bottom-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.contact {
+	color: blue;
+	background-color: #B4C9C7;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#exp {
+	font-style: italic;
+	color: grey;
+}
+
+@media only screen and (max-width: 400px) {
+
+	h1 {
+		width: 80%;
+	}
+
+	.bottom-row {
+		flex-direction: column;
+	}
+}
